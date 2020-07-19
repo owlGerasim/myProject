@@ -2,4 +2,4 @@
 Распаковать архив.
 В файле test.html заменить коментарий в функции ValidPhone() на путь расположения страницы с формой. 
 Пример:
-document.getElementById('formphone').action="<Ваш путь>/test.html";
+document.getElementById('formphone').action="http://yourhost.com/test.html";
