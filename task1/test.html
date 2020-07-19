@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styletest2.css">
+    <script type="text/javascript">
+ 
+    function ValidPhone() {
+        var pattern = /^\+7 9[\d]{2}\ [\d]{3}\ [\d]{4}$/;
+        var phone = document.getElementById('phone').value;
+        var valid = pattern.test(phone);
+        if (valid===true || phone==="") return valid;
+        else {
+            document.getElementById('formphone').action="file:///C:/Users/Vyacheslav/Desktop/goodline_z1/test.html";
+        }
+    }
+ 
+</script>
+</head>
+<body>
+<form id="formphone" action="http://localhost/" method="post">
+    <input id="phone" name="phone" type="text" size="14"/><br>
+    <input id="button" name="button" type="submit" value="ОПРАВИТЬ ЗАЯВКУ" onClick="ValidPhone();" />
+</form> 
+</body>
+</html>

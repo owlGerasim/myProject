@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-wrap:wrap;
+    background: #FFF;
+    justify-content: center;
+}
+
+#formphone {
+    background-color: #FFF;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 151, 16, .3),
+                0 10px 5px -5px rgba(0, 151, 16, .5);
+}
+#formphone #phone {
+    margin: 20px;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 2px;
+    border-style: solid;
+}
+#formphone #button {
+    margin: 20px;
+    margin-top:0;
+    font-family: arial;
+    font-size: 15px;
+    color: #FFF;
+    background: #72BF44;
+    border-style: none;
+    border-color: #72BF44;
+    box-shadow: 0 10px 5px -5px rgba(0, 151, 16, .8)    ;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    font-weight: bold;
+}
