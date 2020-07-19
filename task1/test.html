@@ -10,7 +10,7 @@
         var pattern = /^\+7 9[\d]{2}\ [\d]{3}\ [\d]{4}$/;
         var phone = document.getElementById('phone').value;
         var valid = pattern.test(phone);
-        if (valid===true || phone==="") return valid;
+        if (valid) return valid;
         else {
             document.getElementById('formphone').action="/*Здесь должен находиться адрес расположение страницы с формой*/";
         }
